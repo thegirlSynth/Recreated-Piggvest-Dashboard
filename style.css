@@ -1,11 +1,20 @@
 * {box-sizing: border-box}
 
 body {
-    font-size: ;
-    background-color: #06286D;
+    background-color: #001068;
     font-family: Arial, Helvetica, sans-serif;
     margin:auto;
     width: 45%;
+}
+
+img{
+  display: block;
+  height:65px;
+  width:240px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2{
@@ -64,7 +73,9 @@ form{
   width: 85%
 }
 
-#first{  font-weight: 300
+#first{  font-weight: 300;
+    font-size: 15px;
+
 
 }
 
@@ -79,7 +90,7 @@ a {
   
 }
 
-h2,
+img,h2,
 #last,
 #first,
 #button{
