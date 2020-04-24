@@ -1,216 +1,98 @@
-* {
-  box-sizing: border-box
-}
+* {box-sizing: border-box}
 
 body {
-  background-image: url("unnamed~2.jpg");
-  background-repeat: no-repeat;
-  background-size: 300%;
+    background-color: #ADD8E6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    width: 45%;
 }
 
-#mainContainer {
-  width: 90%;
-  margin: 0 auto;
-  overflow: auto;
+img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-#header {
-  display: block;
-  height: 50px;
+  height:50px;
+  width:250px;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
 }
 
-a{
-  color: #083E9E;
-  padding:1%;
-  margin:1%;
-  float: right;
-  text-decoration: underline;
-  font-weight: bolder
+h2{
+  color: #1B4DA5;
 }
 
-#footer {
-  display: block;
-  height: 50px;
-  margin-top: 1%;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-weight: bold;
+div {
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 
-
-
-
-
-#sideBox {
-  margin: 1%;
-  height: 900px;
-  margin-bottom: 10%;
-  text-align: center;
-}
-/*Images*/
-#profile{
-  display: block;
-  height: 400px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  border-radius: 200px;  
+p{
+  font-weight: 450;
+  
 }
 
-#slack {
-  height: 20px;
-  width: 20px;
-  margin-left: 10px;
-  vertical-align: left
+input, select
+{
+  width: 100%;
+ padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:#EDF2F7
 }
 
-span{
-  margin-left: 20px;
-}
-/*___*/
-
-#aboutMe,
-#contactMe,
-#connect {
-  width: 31.3%;
-  float: left;
-  margin-right: 3%;
-  margin-top: 13%;
-  margin-bottom: 3%;
-  height: 450px;
+select {
+  border: none;
+  border-radius: 8px;
+  
+  
 }
 
-#connect{margin-right: 0%;}
-
-h1 {
-  background-color:#083E9E;
-  color:white;
-  font-weight: 800;
-  padding: 14px 20px;
-  display: block;
-  margin:auto;
-  margin-top: 20px;
-  border: 1px solid #06286D;
-  cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
-  border-radius: 11px;
-  }
-  
-  p,h4{
-    color: #083E9E;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  i, div>h4 {
-    text-align: left;
-    display: block;
-    padding: 2px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    
-  }
-  
-  i{
-    float: left ;
-    margin-right: 30px;
-    margin-left: 10px;
-  }
-  
-  .infoDiv{
-    background-color: white;
-    padding: 1px;
-    border-radius: 20px;
-    margin: auto;
-    display: block;
-    opacity: 0.85;
-    text-align: left;
-    width: 40%;
-  font-size: 20px;
-  }
-  
-  .pDiv,.connectDiv {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    opacity: 0.85;
-  }
-  
-  .connectDiv{
-    font-size: 20px;
-  }
-   #formDiv {
-     display: block;
-     text-align: center
-   }
-   
-   
-  form{
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width:90%;
-    text-align: center;
-  }
-  
-  input,textarea {
-    width: 90%;
-  padding: 15px;
-  margin-top: 20px;
-  border: 1px solid #083E9E ;
-  background:white;
-  text-align: left;
-  }
- 
- textarea{height: 90px;}
- ::placeholder { 
-   color: #083E9E; 
-   font-size: 1.0em;
- }
- 
-  #button{
-    background-color:white;
-    color:#083E9E;
-  }
-  .box {
-    background-color: lightblue;
-    border-radius: 21px;
+#button {
+    background-color:#083E9E;
+    color:white;
+    font-weight: 550;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #06286D ;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 11px; 
     border-bottom-left-radius: 0px;
-  }
-  
-  .highlight, button {
-  background-color:#083E9E;
-  color:white;
-  font-weight: 800;
-  padding: 10px 10px;
-  text-align: center;
-  display: block;
+    }
+    
+    #button:hover {
+      opacity: 1;
+}
+
+form{
   margin:auto;
-  margin-top: 10px;
-  border: 1px solid #06286D;
-  cursor: pointer;
-  width: 90%;
-  opacity: 0.9;
-  border-radius: 15px;
-  }
-   button {
-     margin-top: 20px;
-     width: 80%
-   }
+  width: 85%
+}
+
+#first{  font-weight: 300;
+    font-size: 15px;
+
+
+}
+
+#last {
+  color: white;
+    font-weight: 350
+}
+
+a {
+  text-decoration: none;
+  color: white;
   
-  /*It was arse-difficult to code this with my mobile phone, but I proved it's not impossible. I'll get a laptop soon, 
-but by then I might've become a pro */
+}
+
+img,h2,
+#last,
+#first,
+#button{
+  text-align: center;
+}
