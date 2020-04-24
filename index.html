@@ -1,98 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cynthia Uche</title>
-  <!-- HTML -->
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/cb4eeceea7.js"></script>
+
+  <title>PiggyVest | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
+  <!-- HTML -->
 <body>
-  <div id="mainContainer">
-
-    <div id="header" class="box">
-      <a href="">PORTFOLIO</a>
-      <a href="">BLOG</a>
-    </div>
-
-    <div id="sideBox" class="box">
-    <img id="profile" src="profilePicture.jpg">
-    <h1>CYNTHIA UCHE</h1>
-    <h2 id="button">WEB DEVELOPER</h2>
-    <!--<i class="fas fa-user"></i>-->
-<div class="infoDiv">
-   <h4> <i class="fas fa-mobile-alt"></i> +234-905-580-8318</h4>
-    
-    <h4><i class="far fa-envelope"></i>
-     cynthianuchepro@gmail.com</h4>
-    <h4><i class="fas fa-calendar-day"></i>
-    11-05-1999</h4>
-    <h4><i class="fas fa-map-marker-alt"></i> FLC Housing Estate, Okigwe.</h4>
-    
-   <h4> <i class="fas fa-home"></i>
-       Ideato South, Imo State.</h4>
-          </div>
-      
-      
-    <div id="aboutMe" class="box">
-
-      <div class="highlight"><h2>About me</h2></div>
-      <div class="pDiv">
-            <p>You are staring at the very solution to your web development related problems.</p> 
-            <p> Aside from soaking my bread in my tea and writing copy, web development is what I LOVE doing! </p>
-            
-            <p> I've spent over 500 hours helping people program web apps and pages, and that goes without saying that I'm well suited for your job. </p>
-    </div>
-    </div>
-    
-    <div id="contactMe" class="box">
-      <div class="highlight"><h2>Contact me</h2></div>
-      
-      <div id="formDiv">
-      <form action="mailto:cynthianuchepro@gmail.com" method="GET">
-        
-        <input type="text" placeholder="Full Name">
-        
-        <input type="email" placeholder="Email">
-        
-        <textarea placeholder="Your Message"></textarea>
-        
-        <button type="submit">Send Your Message </button>
-      </form>
-      </div>
-    </div>
-    
-    <div id="connect" class="box">
-     <div class="highlight"> <h2>Let's connect</h2></div>
-     
-     <div class="connectDiv">
-       
-       <h4><img id="slack" src="Rounded_Slack2.png">
-       <span>@Codeflour </span>
-        </h4>
-        
-     <h4><i class="fab fa-facebook"></i>Cynthia Uche</h4>
-       
-       <h4><i class="fab fa-linkedin"></i>Cynthia Uche</h4>
-      
-       <h4><i class="fab fa-twitter"></i> @Ms_Synth</h4>
-      
-        <h4><img id="slack" src="githubIcon.jpg"><span>@Codeflour</span></h4>
-       
-     </div>
-     
-    </div>
-    
-    <hr>
-    <div id="footer">
-      &copy;Copyright Synth 2020
-    </div>
+  
+  <img src="piggyvest-logo.0b78a8fa.png" alt="
+  Piggybank Logo">
+  
+  <div class="container">
+ <h2>Create a Secure Account</h2>
+  <p id="first">Welcome to the future of Savings & Investments</p>
+  
+  <form 
+  action="" method="POST" >
+  
+  <label for="Full Name">
+  <p>Full Name<br>
+  <input type="text" name="Full Name" placeholder="Full Name" required>
+  </p>
+  </label>
+  
+  <label for="Email Address">
+  <p>Email Address<br>
+   <input type="email" name="Email Address" placeholder="Email Address" required>
+   </p>
+   </label>
+   
+   <label for="Phone Number">
+  <p>Phone Number<br>
+    <input type="number" name="Phone Number" placeholder="Phone Number" required>
+  </p>
+  </label>
+  
+  <label for="Password">
+   <p>Password<br>
+     <input type="password" name="Password" placeholder="Password" required>
+   </p>
+   </label>
+   
+   <label>
+   <p>Referrer Phone or Promo Code (Optional)<br>
+     <input type="text" name="Referrer" placeholder=" Referrer Phone Or Code">
+   </p>
+  </label>
+  
+  <label>
+  <p>How Did You Hear About Us? (Optional)<br>
+  <select name="Source">
+    <option value="">Click To Select</option>
+    <option value="Facebook">Facebook</option>
+    <option value="Twitter">Twitter</option>
+    <option value="Instagram">Instagram</option>
+    <option value="">Friend/Family/Coworker Referral</option>
+    <option value="Google Search">Google Search</option>
+    <option value="Google Playstore">Google Playstore</option>
+    <option value="Online Blog=">Online Blog</option>
+    <option value="Local Newspaper">Local Newspaper</option>
+    <option value="At an event ">At an event </option>
+    <option value="Other">Other</option>
+    </select>
+  </p>
+  </label>
+  
+ <input id="button" type="submit" name="register"  value="CREATE ACCOUNT" />
+ 
+  </form>
   </div>
-</body>
+  
+  <p id="last"><a href="">Already have an account? Log In</a>
+  </p>
+  
+  
+  
 
+</body>
 </html>
